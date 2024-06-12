@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "floated-message",
+    "libraryId": "44eecd17-aefb-4a69-9222-0ca2fc4378bc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "floated-message",
+    "solutionShortDescription": "floated-message description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

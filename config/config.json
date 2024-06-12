@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "floated-message-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/floatedMessage/FloatedMessageApplicationCustomizer.js",
+          "manifest": "./src/extensions/floatedMessage/FloatedMessageApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FloatedMessageApplicationCustomizerStrings": "lib/extensions/floatedMessage/loc/{locale}.js"
+  }
+}

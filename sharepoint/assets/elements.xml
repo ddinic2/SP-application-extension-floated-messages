@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="FloatedMessage"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="e73bd30d-4cca-4fba-9c54-36bdbfe593de"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

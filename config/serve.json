@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      
+      "pageUrl": "https://imrinvest.sharepoint.com/sites/ImrOffice",
+      "customActions": {
+        "e73bd30d-4cca-4fba-9c54-36bdbfe593de": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "floatedMessage": {
+      "pageUrl": "https://imrinvest.sharepoint.com/sites/ImrOffice",
+      "customActions": {
+        "e73bd30d-4cca-4fba-9c54-36bdbfe593de": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

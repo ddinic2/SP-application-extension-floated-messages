@@ -1,0 +1,29 @@
+#dialog {
+    position: absolute;
+    top: 11%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 20;
+  }
+  
+  .dialog-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    cursor: move;
+  }
+  
+  .dialog-content {
+    padding: 10px;
+  }
+  
+  /* .draggable {
+    cursor: move;
+  } */
+   a{
+    text-decoration: none;
+   }
