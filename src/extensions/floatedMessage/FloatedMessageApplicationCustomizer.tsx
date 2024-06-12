@@ -26,13 +26,13 @@ export default class FloatedMessageApplicationCustomizer
   extends BaseApplicationCustomizer<IFloatedMessageApplicationCustomizerProperties> {
 
   public onInit(): Promise<void> {
-    Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
-    console.log("my extension")
+    // Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
+    // console.log("my extension")
 
-    let message: string = this.properties.testMessage;
-    if (!message) {
-      message = '(No properties were provided.)';
-    }
+    // let message: string = this.properties.testMessage;
+    // if (!message) {
+    //   message = '(No properties were provided.)';
+    // }
 
     // Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`).catch(() => {
     //   /* handle error */
